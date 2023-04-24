@@ -9,38 +9,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AsianPay"
+        android:theme="@style/Theme.RecyclerViewClasswork"
         tools:targetApi="31">
         <activity
-            android:name=".CustomListViewActivity"
+            android:name=".RecyclerActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ListActivity"
-            android:exported="false">
-
-        </activity>
-        <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false"></activity>
-        <activity
-            android:name=".ForgotPassActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
     </application>
 
 </manifest>
