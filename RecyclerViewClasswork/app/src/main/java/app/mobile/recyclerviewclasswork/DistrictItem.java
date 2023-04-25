@@ -1,9 +1,11 @@
-package Model;
+package app.mobile.recyclerviewclasswork;
 
 public class DistrictItem {
-    String name, temperature, population, area;
+    String name;
+            int temperature;
+            double population, area;
 
-    public DistrictItem(String name, String population, String temperature, String area) {
+    public DistrictItem(String name, int temperature,double population, double area) {
         this.name = name;
         this.population = population;
         this.temperature = temperature;
@@ -19,27 +21,27 @@ public class DistrictItem {
         this.name = name;
     }
 
-    public String getPopulation() {
+    public double getPopulation() {
         return population;
     }
 
-    public void setPopulation(String population) {
+    public void setPopulation(double population) {
         this.population = population;
     }
 
-    public String getTemperature() {
+    public int getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(String temperature) {
+    public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
 
-    public String getArea() {
+    public double getArea() {
         return area;
     }
 
-    public void setArea(String area) {
+    public void setArea(double area) {
         this.area = area;
     }
 

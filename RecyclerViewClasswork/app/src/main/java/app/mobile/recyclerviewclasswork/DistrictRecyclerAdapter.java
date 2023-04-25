@@ -1,19 +1,16 @@
-package Adapter;
-
+package app.mobile.recyclerviewclasswork;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.ConcurrentModificationException;
 
-import Model.DistrictItem;
-import app.mobile.recyclerviewclasswork.R;
 
 public class DistrictRecyclerAdapter extends RecyclerView.Adapter<DistrictRecyclerAdapter.ViewHolder> {
 
@@ -34,9 +31,15 @@ public class DistrictRecyclerAdapter extends RecyclerView.Adapter<DistrictRecycl
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         DistrictItem item = dataArray.get(position);
         holder.name.setText(item.getName());
-        holder.population.setText(item.getPopulation());
-        holder.temperature.setText(item.getTemperature());
-        holder.area.setText(item.getArea());
+        holder.population.setText(item.getPopulation()+"");
+        holder.temperature.setText(item.getTemperature()+"");
+        holder.area.setText( item.getArea()+"");
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, item.getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
     public int getItemCount() {
