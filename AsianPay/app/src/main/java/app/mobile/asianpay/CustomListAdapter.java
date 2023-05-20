@@ -33,9 +33,6 @@ public class CustomListAdapter extends ArrayAdapter<String> {
         numberText.setText(Integer.toString(position+1));
         return singleListViewItem;
 
-
-
-
     }
 
 }

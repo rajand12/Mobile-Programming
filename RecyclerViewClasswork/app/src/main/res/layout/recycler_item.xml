@@ -5,9 +5,6 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:layout_height="wrap_content">
-
-
-
     <TextView
         android:id="@+id/district_name"
         android:text="District Name"
@@ -36,7 +33,4 @@
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
-
-
 </LinearLayout>
