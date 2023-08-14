@@ -1,0 +1,79 @@
+[
+    {
+      "name": "Lion",
+      "scientificName": "Panthera leo",
+      "description": "The lion is a species of large cat that lives in Africa and some parts of Asia. Lions are known for their majestic appearance, with males having a distinctive mane of hair around their necks. They are apex predators and often hunt in groups, making them some of the most formidable predators in the animal kingdom.",
+      "habitat": "Savannas, grasslands, and semi-arid regions",
+      "diet": "Carnivorous"
+    },
+    {
+      "name": "Giraffe",
+      "scientificName": "Giraffa camelopardalis",
+      "description": "The giraffe is a tall, herbivorous animal that is native to Africa. Known for their long necks, giraffes are the tallest mammals in the world. They are social animals that live in groups, and their unique physical characteristics make them one of the most recognizable animals in the world.",
+      "habitat": "Savannas, grasslands, and woodlands",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Elephant",
+      "scientificName": "Loxodonta africana",
+      "description": "The elephant is the largest land animal on earth, and is native to Africa and parts of Asia. They are intelligent and social animals, living in family groups led by a matriarch. Elephants are herbivorous and can consume up to 300 pounds of vegetation in a single day.",
+      "habitat": "Savannas, forests, and deserts",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Tiger",
+      "scientificName": "Panthera tigris",
+      "description": "The tiger is the largest cat species in the world and is native to Asia. They are powerful predators and are known for their distinctive stripes. Tigers are solitary animals and are mostly active at night. They are apex predators, and their population has been threatened due to habitat loss and poaching.",
+      "habitat": "Tropical and subtropical forests, grasslands, and savannas",
+      "diet": "Carnivorous"
+    },
+    {
+      "name": "Panda",
+      "scientificName": "Ailuropoda melanoleuca",
+      "description": "The giant panda is a bear native to China, known for their distinctive black and white fur. They are herbivorous and mainly eat bamboo, consuming up to 40 pounds of it a day. The population of pandas is threatened due to habitat loss and low reproductive rates.",
+      "habitat": "Temperate forests in China",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Kangaroo",
+      "scientificName": "Macropus",
+      "description": "The kangaroo is a marsupial that is native to Australia. They are known for their powerful legs, which they use to hop across long distances. Kangaroos are herbivorous and consume a variety of plants. They have a unique reproductive system, with females carrying their young in a pouch on their stomachs.",
+      "habitat": "Grasslands and forests",
+      "diet": "Herbivorous"
+    },
+  {
+      "name": "Gorilla",
+      "scientificName": "Gorilla beringei",
+      "description": "The gorilla is a large, herbivorous primate that is native to Africa. They are known for their incredible strength and intelligence, and are one of the closest living relatives to humans. Gorillas live in family groups led by a dominant male, and are threatened by habitat loss and poaching.",
+      "habitat": "Forests and mountains",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Crocodile",
+      "scientificName": "Crocodylus",
+      "description": "The crocodile is a large, carnivorous reptile that is found in tropical regions around the world. They are apex predators and have a powerful bite, making them one of the most formidable predators in the animal kingdom. Crocodiles have been around for millions of years and are often considered living fossils.",
+      "habitat": "Rivers, lakes, and wetlands",
+      "diet": "Carnivorous"
+    },
+    {
+      "name": "Koala",
+      "scientificName": "Phascolarctos cinereus",
+      "description": "The koala is a marsupial that is native to Australia. They are known for their cute and cuddly appearance and are often referred to as 'koala bears', although they are not actually bears. Koalas are herbivorous and mainly eat eucalyptus leaves.",
+      "habitat": "Eucalyptus forests",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Sloth",
+      "scientificName": "Folivora",
+      "description": "The sloth is a slow-moving, herbivorous mammal that is found in Central and South America. They are known for their slow movements and spend most of their time hanging upside down from trees. Sloths have a low metabolism and can go up to a week without eating.",
+      "habitat": "Rainforests",
+      "diet": "Herbivorous"
+    },
+    {
+      "name": "Red Panda",
+      "scientificName": "Ailurus fulgens",
+      "description": "The red panda is a small, arboreal mammal that is native to the Himalayas and southern China. They are known for their cute and cuddly appearance, with red fur and distinctive markings. Red pandas are omnivorous and mainly eat bamboo, but also consume small mammals, birds, and insects.",
+      "habitat": "Temperate forests",
+      "diet": "Omnivorous"
+    }
+  ]

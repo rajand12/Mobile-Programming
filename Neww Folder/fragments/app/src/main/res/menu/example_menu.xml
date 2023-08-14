@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/item1"
+            android:title="Item 1"
+            app:showAsAction="always"
+            android:icon="@drawable/baseline_adb_24"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Item 2"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_agriculture_24"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Item 3"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_airline_seat_flat_24">
+
+        <menu>
+            <item
+             android:icon="@drawable/baseline_agriculture_24"
+                android:title="Subitem 1"
+                app:showAsAction="always"
+                android:id="@+id/sub_item1"/>
+
+            <item
+                android:icon="@drawable/baseline_airline_seat_flat_24"
+                android:title="Subitem 2"
+                app:showAsAction="always"
+                android:id="@+id/sub_item2"/>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
